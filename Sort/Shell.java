@@ -44,7 +44,7 @@ public class Shell {
 
     public static void main(String[] args) {
         String[] a = StdIn.readAllStrings();
-        Insertion.sort(a);
+        Shell.sort(a);
         show(a);
     }
 }
