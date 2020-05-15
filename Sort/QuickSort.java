@@ -16,11 +16,11 @@ public class QuickSort {
                 i++;
             }
 
-            while (less(a[lo], a[j])) {
+            while (！less(a[lo], a[j])) {
                 if (j == lo) break;
                 j--;
             }
-            if (i >= j) break;  //这里用 i > j 可以吗？
+            if (i >= j) break;  //这里用 i > j 可以吗？ 不可以， 比如数组[2, 1]
             exch(a, i, j);
         }
         exch(a, lo, j);

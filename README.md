@@ -12,3 +12,4 @@ Sort learned
 - Insertion sort 
 - Shell sort
 - Merge sort
+- Quick sort
