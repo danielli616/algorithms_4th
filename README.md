@@ -13,3 +13,4 @@ Sort learned
 - Shell sort
 - Merge sort
 - Quick sort
+- Heap sort
