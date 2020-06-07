@@ -33,4 +33,13 @@ public class EdgeWeightedGraph {
         return adj[v];
     }
 
+    public Iterable<Edge> edges() {
+        Bag<Edge> list = new Bag<Edge>();
+
+        for (int v = 0; v < V; v++)
+            for (Edge e : adj[V]) {
+                list.add(e);
+            }
+        return list;
+    }
 }

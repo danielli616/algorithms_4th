@@ -14,7 +14,7 @@ public class LazyPrimMST {
         weight = 0;
         visit(G, 0);
 
-        while (!pq.isEmpty()) {
+        while (!pq.isEmpty() && mst.size() < G.V() - 1) {
             Edge e = pq.delMin();
             int v = e.either();
             int w = e.other(v);
